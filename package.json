@@ -2,7 +2,7 @@
   "name": "@babel/plugin-objective-enums",
   "version": "1.0.0",
   "description": "Objective enums for Babel",
-  "repository": "Traffician/-babel-plugin-objective-enums",
+  "repository": "Traffician/babel-plugin-objective-enums",
   "license": "MIT",
   "main": "dist/index.js",
   "dependencies": {
