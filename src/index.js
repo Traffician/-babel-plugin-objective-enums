@@ -69,7 +69,6 @@ function enumFill(path, t, id) {
       body: [{ type: "ExpressionStatement", expression: memberValue }],
       sourceType: "module"
     }, null, { compact: true, minified: true, ast: false })
-    console.log(code.replace(/;$/, ''))
     return `${memberName}: ${code.replace(/;$/, '')}`
   }).filter(Boolean);
 
