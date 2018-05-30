@@ -1,13 +1,13 @@
-# @babel/plugin-objective-enums
+# babel-plugin-objective-enums
 
 Babel plugin allowing to use enum syntax in JavaScript projects. It wraps [objective-enums](https://github.com/Traffician/objective-enums).
 
-It requires Babel 7 or higher.
+It requires **Babel 7** or higher.
 
 ## Installation
 
 ```sh
-$ npm install --save-dev @babel/plugin-objective-enums
+$ npm install --save-dev babel-plugin-objective-enums
 ```
 
 ## Usage
@@ -18,21 +18,21 @@ $ npm install --save-dev @babel/plugin-objective-enums
 
 ```json
 {
-  "plugins": ["@babel/plugin-objective-enums"]
+  "plugins": ["babel-plugin-objective-enums"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel --plugins @babel/plugin-objective-enums script.js
+$ babel --plugins babel-plugin-objective-enums script.js
 ```
 
 ### Via Node API
 
 ```javascript
-require('@babel/core').transform('code', {
-  plugins: ['@babel/plugin-objective-enums']
+require('babel-core').transform('code', {
+  plugins: ['babel-plugin-objective-enums']
 });
 ```
 
