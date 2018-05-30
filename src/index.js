@@ -1,4 +1,3 @@
-import 'better-log/install';
 import { template, transformFromAst } from "@babel/core";
 import typescript from '@babel/plugin-syntax-typescript';
 
