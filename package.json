@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-objective-enums",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Objective enums for Babel",
   "repository": "Traffician/babel-plugin-objective-enums",
   "license": "MIT",
