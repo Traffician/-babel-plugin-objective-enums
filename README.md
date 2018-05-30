@@ -1,6 +1,6 @@
 # @babel/plugin-objective-enums
 
-Extended plugin sample for Babel.
+Babel plugin allowing to use enum syntax in JavaScript projects. It wraps [objective-enums](https://github.com/Traffician/objective-enums).
 
 It requires Babel 7 or higher.
 
