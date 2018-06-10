@@ -1,14 +1,14 @@
 {
   "name": "babel-plugin-objective-enums",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Objective enums for Babel",
   "repository": "Traffician/babel-plugin-objective-enums",
   "license": "MIT",
   "main": "dist/index.js",
   "dependencies": {
-    "objective-enums": "^1.0.2",
+    "@babel/plugin-syntax-typescript": "^7.0.0-beta.40",
     "@babel/runtime": "^7.0.0-beta.49",
-    "@babel/plugin-syntax-typescript": "^7.0.0-beta.40"
+    "objective-enums": "^1.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.49",

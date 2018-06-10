@@ -1,7 +1,7 @@
 # babel-plugin-objective-enums
 
 Babel plugin allowing to use enum syntax in JavaScript projects. 
-It wraps [objective-enums](https://github.com/Traffician/objective-enums) and it requires **Babel 7** or higher.
+It wraps [objective-enums](https://github.com/Traffician/objective-enums) and it requires **Babel 7**.
 
 Some code fragments are from [babel-plugin-transform-typescript](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-typescript).
 
