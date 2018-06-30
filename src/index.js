@@ -69,7 +69,7 @@ function enumFill(path, t, id) {
       body: [{ type: "ExpressionStatement", expression: memberValue }],
       sourceType: "module"
     }, null, { compact: true, minified: true, ast: false })
-    return `${memberName}: ${code.replace(/;$/, '')}`
+    return `'${memberName}': ${code.replace(/;$/, '')}`
   }).filter(Boolean);
 
   return buildEnumWrapper({

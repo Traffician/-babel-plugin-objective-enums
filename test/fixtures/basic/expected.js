@@ -24,10 +24,10 @@ function (_Enum) {
 
   return Colors;
 }(_objectiveEnums.default))({
-  Red: "#FF0000",
-  Yellow: ({r:255,g:255,b:0}),
-  Green: 32768,
-  Blue: true,
-  White: 5,
-  Black: 250
+  'Red': "#FF0000",
+  'Yellow': ({r:255,g:255,b:0}),
+  'Green': 32768,
+  'Blue': true,
+  'White': 5,
+  'Black': 250
 });
